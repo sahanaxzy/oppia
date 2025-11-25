@@ -64,3 +64,7 @@ The Oppia code is released under the [Apache v2 license](https://github.com/oppi
 
 
 
+PR #23604 – Fix: Misaligned “My Dashboard” button
+
+Link: https://github.com/oppia/oppia/pull/23604
+This PR was implemented to fix the misaligned "My Dashboard" button on the Oppia practice session page (Issue #20003). The root cause was an invisible, phantom element in the Document Object Model (DOM) left over from a previous code change. This hidden element still consumed space within the flex container. Consequently, the button was pushed far to the right, breaking the intended layout. The merged fix ensures the correct removal of the phantom element, restoring proper button positioning.
