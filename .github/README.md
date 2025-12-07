@@ -60,3 +60,24 @@ The Oppia code is released under the [Apache v2 license](https://github.com/oppi
 [facebook]: https://www.facebook.com/oppiaorg/
 [oppia-org-youtube]: https://www.youtube.com/channel/UC5c1G7BNDCfv1rczcBp9FPw
 [dev-youtube]: https://www.youtube.com/channel/UCsrAX-oeqm0-NIQzQrdiUkQ
+
+
+
+
+PR #23604 – Fix: Misaligned “My Dashboard” button
+
+Link: https://github.com/oppia/oppia/pull/23604
+This PR was implemented to fix the misaligned "My Dashboard" button on the Oppia practice session page (Issue #20003). The root cause was an invisible, phantom element in the Document Object Model (DOM) left over from a previous code change. This hidden element still consumed space within the flex container. Consequently, the button was pushed far to the right, breaking the intended layout. The merged fix ensures the correct removal of the phantom element, restoring proper button positioning.
+
+
+PR #23806 – Fix: Highlight bug during language switch
+
+Link: https://github.com/oppia/oppia/pull/23806
+This PR resolves a highlighting issue in the Exploration Player and preview pages when users switch between different language accents. The update ensures that text highlighting now stays properly synced with the voiceover playback, providing an accurate and consistent reading experience across all supported accents.
+
+
+PR #23869 – Relax the regex for app feedback domain reports
+
+Link: https://github.com/oppia/oppia/pull/23869
+This Pull Request relaxes the regular expression (regex) used for validating app feedback domain reports. The update makes the regex less restrictive by allowing digits in language codes, fixing an issue where the previous regex incorrectly rejected valid Android language codes.
+
