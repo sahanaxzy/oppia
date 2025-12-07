@@ -4,7 +4,7 @@
   https://rtlcss.com/learn/usage-guide/control-directives .
 */
 .oppia-arrow-button {
-  color: #00645c;
+  color: var(--oppia-primary-hover-color);
   cursor: pointer;
   float: left;
   height: 44px;
@@ -13,6 +13,7 @@
   text-align: right;
   width: 6px;
 }
+
 .oppia-current-goals-content {
   border-bottom: 1px solid #ccc;
   margin-bottom: 16px;
@@ -20,14 +21,16 @@
   min-height: 57px;
   width: 615px;
 }
+
 .oppia-completed-goals {
   border-bottom: 1px solid #ccc;
   height: 125px;
   margin-bottom: 14px;
   width: 656px;
 }
+
 .oppia-goals-title {
-  color: #00645c;
+  color: var(--oppia-primary-hover-color);
   font-family: "Capriola", "Roboto", Arial, sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -38,6 +41,7 @@
   position: relative;
   text-align: left;
 }
+
 .oppia-completed-goals-content {
   border-bottom: 1px solid #ccc;
   margin: auto;
@@ -46,14 +50,16 @@
   padding-left: 7px;
   width: 656px;
 }
+
 .oppia-goals-story-name {
-  color: #333333b3;
+  color: var(--oppia-text-color);
   font-size: 16px;
   font-style: italic;
   letter-spacing: 0;
   opacity: 1;
   text-align: left;
 }
+
 .oppia-edit-goals-content {
   border-bottom: 1px solid #ccc;
   margin: auto;
@@ -61,8 +67,9 @@
   min-height: 36px;
   width: 656px;
 }
+
 .oppia-edit-goals-learn-title {
-  color: #333;
+  color: var(--oppia-text-color);
   float: right;
   font-size: 22px;
   font-weight: 500;
@@ -75,6 +82,7 @@
   top: -46px;
   width: 150px;
 }
+
 .oppia-edit-goals-subheading {
   border-bottom: 1px solid #ccc;
   height: 68px;
@@ -82,8 +90,9 @@
   margin-bottom: 14px;
   width: 656px;
 }
+
 .oppia-current-goals-topic-name {
-  color: #333;
+  color: var(--oppia-text-color);
   display: inline-block;
   font-size: 19px;
   font-weight: 100;
@@ -94,8 +103,9 @@
   text-align: left;
   width: 500px;
 }
+
 .oppia-completed-goals-topic-name {
-  color: #333;
+  color: var(--oppia-text-color);
   display: inline-block;
   font-size: 19px;
   letter-spacing: 0;
@@ -105,12 +115,14 @@
   text-align: left;
   width: 450px;
 }
+
 .oppia-completed-goals-topic-name:hover {
   font-weight: 450;
   text-decoration: none;
 }
+
 .oppia-goals-topic-name {
-  color: #333;
+  color: var(--oppia-text-color);
   display: inline-block;
   font-size: 19px;
   letter-spacing: 0;
@@ -120,8 +132,9 @@
   text-align: left;
   width: 270px;
 }
+
 .oppia-new-story-content {
-  color: #00645c;
+  color: var(--oppia-primary-hover-color);
   font-size: 16px;
   letter-spacing: 0;
   opacity: 1;
@@ -129,12 +142,14 @@
   text-transform: uppercase;
   width: 300px;
 }
+
 .oppia-goals-topic-name:hover {
   font-weight: 450;
   text-decoration: none;
 }
+
 .oppia-edit-goals-topic-title {
-  color: #333;
+  color: var(--oppia-text-color);
   font-size: 22px;
   font-weight: 450;
   letter-spacing: 0;
@@ -145,8 +160,9 @@
   text-align: left;
   width: 150px;
 }
+
 .oppia-empty-goals-content {
-  color: #333;
+  color: var(--oppia-text-color);
   font-size: 18px;
   height: 44px;
   letter-spacing: 0;
@@ -175,6 +191,7 @@
   text-align: center;
   transform: translateY(0%);
 }
+
 /*rtl:end:remove*/
 
 .oppia-svg-paw-image {
@@ -185,6 +202,7 @@
   position: relative;
   width: 32px;
 }
+
 .oppia-svg-book-image {
   left: 580px;
   position: absolute;
@@ -192,14 +210,16 @@
   transform: translateY(0%);
   width: 25px;
 }
+
 .oppia-svg-star-image {
   filter: invert(95%) sepia(49%) saturate(2374%) hue-rotate(320deg) brightness(91%) contrast(89%);
   float: right;
   margin-right: 24px;
   width: 30px;
 }
+
 .oppia-goals-box {
-  background-color: #fff;
+  background-color: var(--oppia-surface-color);
   border-radius: 4px;
   box-shadow: 0 0 4px #0000001a;
   margin-bottom: 25px;
@@ -207,8 +227,9 @@
   padding: 0 0 30px 0;
   width: 726px;
 }
+
 .oppia-edit-goals-title {
-  color: #00645c;
+  color: var(--oppia-primary-hover-color);
   font-family: "Capriola", "Roboto", Arial, sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -219,12 +240,15 @@
   position: relative;
   text-align: left;
 }
+
 .oppia-input-box-subtitle {
   padding: 0 33px;
 }
+
 .oppia-story-summary-card {
   display: inline-block;
 }
+
 .oppia-three-dots-dropdown-container {
   color: #555;
   cursor: pointer;
@@ -235,8 +259,9 @@
   position: relative;
   width: 24px;
 }
+
 .oppia-three-dots-dropdown {
-  background-color: #fff;
+  background-color: var(--oppia-surface-color);
   border-radius: 4px;
   box-shadow: 0 0 4px rgb(0 0 0 / 25%);
   padding: 10px;
@@ -245,120 +270,153 @@
   top: 20px;
   width: 100px;
 }
+
 .oppia-three-dots-dropdown:hover {
-  background-color: #f5f5f5;
+  background-color: var(--oppia-dropdown-hover);
 }
+
 .oppia-three-dots-dropdown span {
   font-size: 14px;
   padding-left: 10px;
 }
+
 .oppia-trash-button {
   text-align: center;
 }
+
 @media screen and (max-width: 1200px) {
   .oppia-checkbox {
     left: 585px;
   }
+
   .oppia-svg-book-image {
     left: 580px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .oppia-goals-box {
     margin: auto;
     margin-bottom: 20px;
     width: 369px;
   }
+
   .oppia-current-goals-topic-name {
     width: 60%;
   }
+
   .oppia-goals-story-name {
     width: 250px;
   }
+
   .oppia-three-dots-dropdown-container {
     margin-right: 3px;
   }
+
   .oppia-current-goals-content {
     margin-left: 50px;
     width: 293px;
   }
+
   .oppia-edit-goals-subheading {
     width: 300px;
   }
+
   .oppia-edit-goals-learn-title {
     right: 8px;
     text-align: end;
   }
+
   .oppia-edit-goals-content {
     width: 300px;
   }
+
   .oppia-checkbox {
     left: 310px;
     text-align: start;
     width: 100px;
   }
+
   .oppia-new-story-content {
     font-size: 13px;
   }
+
   .oppia-completed-goals-content {
     width: 300px;
   }
+
   .oppia-completed-goals-topic-name {
     width: 250px;
   }
+
   .oppia-goals-title {
     margin-bottom: 20px;
   }
+
   .oppia-empty-goals-content {
     margin-bottom: 20px;
     width: 300px;
   }
+
   .oppia-goals-topic-name {
     width: 270px;
   }
+
   .oppia-svg-book-image {
     left: 305px;
     text-align: start;
   }
+
   .oppia-svg-paw-image {
     left: 90px;
   }
+
   .oppia-svg-star-image {
     position: relative;
     top: 25px;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   .oppia-goals-box {
     width: 500px;
   }
+
   .oppia-empty-goals-content {
     width: 380px;
   }
+
   .oppia-edit-goals-subheading {
     width: 430px;
   }
+
   .oppia-edit-goals-content {
     width: 430px;
   }
+
   .oppia-checkbox {
     left: 207px;
     text-align: end;
     width: 144px;
   }
+
   .oppia-svg-book-image {
     left: 328px;
   }
+
   .oppia-current-goals-content {
     width: 410px;
   }
+
   .oppia-completed-goals-content {
     width: 445px;
   }
+
   .oppia-svg-star-image {
     position: relative;
     top: 30px;
   }
+
   .oppia-current-goals-topic-name {
     width: 365px;
   }
@@ -386,8 +444,8 @@
 }
 
 .oppia-learner-dash-button-delete-goals {
-  background-color: #fff;
-  color: #00645c;
+  background-color: var(--oppia-surface-color);
+  color: var(--oppia-primary-color);
 }
 
 .oppia-learner-dash-button-delete-goals:hover {
@@ -395,9 +453,9 @@
 }
 
 .oppia-learner-dash-goals-add-circle {
-  background-color: #00645c;
+  background-color: var(--oppia-primary-color);
   border-radius: 50%;
-  color: #fff;
+  color: var(--oppia-surface-color);
   display: inline-block;
   flex-shrink: 0;
   height: 48px;
@@ -408,7 +466,7 @@
 }
 
 .oppia-learner-dash-goals-add-text {
-  color: #00645c;
+  color: var(--oppia-primary-color);
 }
 
 .oppia-learner-dash-button--add-goals:hover .oppia-learner-dash-goals-add-circle {
@@ -420,7 +478,7 @@
 }
 
 .oppia-learner-dash-goals-heading {
-  color: #333;
+  color: var(--oppia-text-color);
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 0;
@@ -434,12 +492,12 @@
 }
 
 .oppia-learner-dash-goals-section {
-  background-color: #fff;
+  background-color: var(--oppia-surface-color);
   border-radius: 4px;
 }
 
 .oppia-learner-dash-goals-text {
-  color: #333;
+  color: var(--oppia-text-color);
   flex-grow: 1;
   font-size: 18px;
 }
